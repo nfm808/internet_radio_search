@@ -1,0 +1,110 @@
+.List {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.List--list-container {
+  max-height: 100%;
+  width: 85%;
+  overflow: hidden scroll;
+  margin-bottom: 1rem;
+}
+.List--li {
+  cursor: pointer;
+  background: linear-gradient(133deg, rgba(255,30,200,.7) 0%, rgba(9,9,121,.7) 50%, rgba(11,207,252,.7) 130%);
+  width: 100%;
+  padding: .75rem;
+  margin-bottom: .5rem;
+  transition: height 400ms ease-in-out;
+  color: rgba(255,30,200);
+  text-align: center;
+}
+.List--li:focus {
+  transform: scale(1.02);
+  box-shadow: 1px 2px 6px 2px rgba(0,0,0,.1);
+  color: #f91ec6;
+  background-color: #0c0b7a;
+}
+.List--list-container-e {
+  max-height: 85%;
+  min-height: 80%;
+  width: 98%;
+  padding: 2rem;
+  overflow: hidden;
+}
+.pink {
+  color: #f91ec6;
+}
+.green {
+  color: #cce632;
+}
+.List--homepage-icon * {
+  color: white;
+  font-size: 2rem;
+}
+.List--li-e {
+  background: linear-gradient(133deg, rgba(255,30,200,.7) 0%, rgba(9,9,121,.7) 50%, rgba(11,207,252,.7) 130%);
+  color: white;
+  padding: .5rem;
+  margin: .2rem;
+  border-radius: 3px;
+  transition: height 400ms ease-in-out;
+}
+.expanded {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.willExpand {
+  transition-property: height width opacity;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+.List--img-container {
+  height: 100px;
+  width: 100px;
+  opacity: 1;
+  margin: 0 auto;
+}
+.List--img {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+.List--list {
+  width: 100%;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hiddenList {
+  display: none;
+}
+.List--buttonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.List--buttonContainer button {
+  margin: 3px auto;
+  
+}
+.List--filters {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  margin-top: .5%;
+}

@@ -1,0 +1,26 @@
+.Loading {
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 1, 19, 0);
+  color: white;
+}
+.Loading--container {
+  padding: 3rem;
+  border-radius: 3px;
+  width: 100vw;
+}
+.Loading--gif {
+  width: 100%;
+}
+.Loading--message {
+  animation: color-change 2s ease-in-out alternate-reverse infinite;
+}
+@keyframes color-change {
+  0% { color: #240775; }
+  50% { color: #cce632; }
+  100% { color: #f91ec6; }
+}

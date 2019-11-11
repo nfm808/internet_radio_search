@@ -1,0 +1,19 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.Filter--option {
+  background: rgb(12, 11, 122);
+  color: #f91ec6;
+}
+#filterSelect {
+  background: rgb(12, 11, 122);
+  color: #f91ec6;
+  padding: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}

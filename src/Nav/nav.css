@@ -1,0 +1,32 @@
+.navBar {
+    flex: 0 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px;
+    height: 60px;
+    font-size: calc(10px + 2vmin);
+    top: 0;
+    width: 100vw;
+    padding: 0;
+    border-bottom: 1px #c1ba46 solid;
+}
+
+.navBar a {
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-right: 1rem;
+    font-size: 12px;
+}
+
+.navBar a:hover {
+    color: #10c4f5;
+    transition: all ease-in 0.4s;
+}
+
+.navBar a:last-child {
+    padding-right: 4em;
+}

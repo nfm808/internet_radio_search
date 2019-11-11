@@ -1,0 +1,123 @@
+footer {
+    background-color: #373945;
+    color: #bbb;
+    line-height: 1.5;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.navBarFooter {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    font-size: calc(10px + 2vmin);
+    flex-direction: column;
+}
+
+.navBarFooter a {
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #b0b9bf;
+    padding-right: 1rem;
+    font-size: 12px;
+    width: calc(100% / 9 );
+    line-height: 2rem;
+}
+
+.navBarFooter a:hover {
+    color: #fff;
+    transition: all ease-in 0.4s;
+}
+
+.navBarFooter a:last-child {
+    padding-right: 4em;
+}
+
+.ft-title {
+    color: #fff;
+    font-size: 1em;
+    padding-bottom: 0.625rem;
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+.ft-main-item.message {
+    width: calc(100% / 3 );
+}
+
+.bigmessage {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #c7cdd1;
+    line-height: 1.2;
+}
+
+/*social stuff*/
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid; 
+    padding-top: 1.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+/*copyright stuff*/
+.ft-legal {
+    padding: 0.5em 1.5rem;
+    background-color: #000000;
+}
+
+.ft-legal-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: medium;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+/*media queries*/
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 48.5rem ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+    .ft-main-item.message {
+      width: 100%;
+    }
+}

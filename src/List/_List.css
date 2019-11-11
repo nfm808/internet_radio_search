@@ -1,0 +1,57 @@
+.List {
+  width: 90%;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.List--list-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+.List--list-item {
+  background: pink;
+  margin: 5px;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 133px;
+  width: 110px;
+  padding: .2rem;
+  transition: transform 400ms ease-in-out;
+}
+.List--list-item-favicon-container {
+  width: 90px;
+  height: auto;
+}
+.favicon-shrink {
+  width: 50px;
+  
+}
+.List--list-item-favicon {
+  width: 100%;
+ 
+}
+.hidden {
+  display: none;
+  transition: display 200ms linear;
+}
+.List--item * {
+  display: block;
+}
+.expand {
+  position: fixed;
+  height: 50%;
+  width: 100%;
+  top: 25%;
+  left: 0;
+  background: white;
+  transform: scale(2);
+}

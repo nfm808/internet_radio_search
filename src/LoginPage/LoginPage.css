@@ -1,0 +1,11 @@
+.center {
+  text-align: center;
+}
+.LoginPage a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.white {
+  color: white;
+}

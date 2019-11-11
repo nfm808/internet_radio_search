@@ -1,0 +1,33 @@
+.About {
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+.green {
+  color: #cce632;
+}
+.red {
+  color: red;
+}
+.About--server-info {
+  padding: 2rem;
+}
+.About--server-stat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.About--server-stat {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: .5rem;
+}
+.About--server-stat h3 {
+  padding-right: .5rem;
+}
